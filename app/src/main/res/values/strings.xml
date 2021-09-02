@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Noted</string>
+    <string name="kotlin_programing">Kotlin programing</string>
+    <string name="bummy">Kotlin is one of the best ptoggkdnv djjd jfjdjskfnssjf jsjshkf</string>
+    <string name="type_your_title">Type your title</string>
+    <string name="note_here">Note here</string>
+    <string name="list">List</string>
+    <string name="audio">Audio</string>
+    <string name="text">Text</string>
+    <string name="capture">Capture</string>
+    <string name="home">Home</string>
+
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="checklists">Checklists</string>
+    <string name="notes">Notes</string>
+    <string name="tasks">Tasks</string>
+</resources>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="190dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardElevation="5dp"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="16dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:layout_height="match_parent">
+
+            <!-- color indicator and note name layout -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/header"
+                android:layout_height="wrap_content">
+
+                <!-- color indicator -->
+                <View
+                    android:layout_width="10dp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/tagColorIndicator"
+                    android:layout_height="10dp"
+                    android:background="@drawable/tag_indicator"/>
+                <!-- note title-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:lines="1"
+                    android:ellipsize="end"
+                    android:layout_marginStart="8dp"
+                    android:textSize="16sp"
+                    style="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:text="@string/kotlin_programing"
+                    android:layout_toEndOf="@id/tagColorIndicator"
+                    android:id="@+id/noteTitle"/>
+
+            </RelativeLayout>
+
+            <!-- note body text -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@id/header"
+                android:layout_marginTop="8dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_height="wrap_content"
+                android:text="@string/bummy"
+                android:id="@+id/noteBody"
+                />
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>
