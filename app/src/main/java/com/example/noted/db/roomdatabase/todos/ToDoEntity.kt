@@ -1,10 +1,10 @@
-package com.example.noted.datas.roomdatabase.tasks
+package com.example.noted.db.roomdatabase.todos
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "tasks")
-class TaskEntity(
+class ToDoEntity(
 
     @PrimaryKey(autoGenerate = true)
     val taskId: Int,

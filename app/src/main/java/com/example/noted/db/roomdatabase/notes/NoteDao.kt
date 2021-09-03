@@ -1,4 +1,4 @@
-package com.example.noted.datas.roomdatabase.notes
+package com.example.noted.db.roomdatabase.notes
 
 import androidx.lifecycle.LiveData
 import androidx.room.*

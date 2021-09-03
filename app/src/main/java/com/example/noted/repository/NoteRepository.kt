@@ -1,10 +1,10 @@
-package com.example.noted.datas.repository
+package com.example.noted.repository
 
 import android.app.Application
 import androidx.lifecycle.LiveData
-import com.example.noted.datas.roomdatabase.LocalDatabase
-import com.example.noted.datas.roomdatabase.notes.NoteDao
-import com.example.noted.datas.roomdatabase.notes.NoteEntity
+import com.example.noted.db.roomdatabase.LocalDatabase
+import com.example.noted.db.roomdatabase.notes.NoteDao
+import com.example.noted.db.roomdatabase.notes.NoteEntity
 
 class NoteRepository(application: Application) {
 

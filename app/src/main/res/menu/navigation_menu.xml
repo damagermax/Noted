@@ -17,9 +17,9 @@
             android:icon="@drawable/navchecklist"
             android:id="@+id/checklist"/>
         <item
-            android:title="@string/tasks"
+            android:title="To Dos"
             android:icon="@drawable/navtask"
-            android:id="@+id/tasks"/>
+            android:id="@+id/todos"/>
 
     </group>
 

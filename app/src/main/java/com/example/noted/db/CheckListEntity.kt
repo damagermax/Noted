@@ -1,3 +1,3 @@
-package com.example.noted.datas
+package com.example.noted.db
 
 data class CheckListEntity(val mr:String)
